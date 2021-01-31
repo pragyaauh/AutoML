@@ -21,7 +21,7 @@ Auto Insurance
 				Columns such as INCOME,HOME_VAL,BLUEBOOK and OLDCLAIM, have been cleaned to convert them object format to int type. This also included dropping symbols 				like "$"  and ","
 
 5. Modelling ,metrics and hyperparameter tuning:
-	I tried several models in the pipeline such as Logistic Regression, SGD classifer,k-neighbors, Gaussian Na??ve Bayes, Lgbm, AdaBoost and Random Forest. Since 	the dataset is highly imbalanced in nature, I chose the Recall score as the primary metric and precision as the secondary.I also usedRepeatedStratifiedSampling 	to maintain the original ratio of the classes in the dataset.
+	I tried several models in the pipeline such as Logistic Regression, SGD classifer,k-neighbors, Gaussian Naive Bayes, Lgbm, AdaBoost and Random Forest. Since 	the dataset is highly imbalanced in nature, I chose the Recall score as the primary metric and precision as the secondary.I also usedRepeatedStratifiedSampling 	to maintain the original ratio of the classes in the dataset.
 
 	GaussianNB, LGBM and AdaBoost are the top three performers.
 	I performed hyperparameter tuning on Ada Boost and obtained the following results
