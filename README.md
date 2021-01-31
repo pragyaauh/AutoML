@@ -29,7 +29,8 @@ I performed hyperparameter tuning on Ada Boost and obtained the following result
 The recall score was 63.3%
 
 ## Future Scope
-•	So far the predictions were made by dropping the na rows,however we canimpute the same by using Bayesian imputer and Categorical Imputer from Sklearn
+•	So far the predictions were made by dropping the na rows,however we canimpute the same by     using Bayesian imputer and Categorical Imputer from Sklearn.
+
 •	Model tuning can also be done on other better performing models
 
 ## Tools used
